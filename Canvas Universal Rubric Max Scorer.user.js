@@ -1,15 +1,22 @@
 
 // ==UserScript==
 // @name         Canvas Universal Rubric Max Scorer
-// @namespace    https://cedarburg.instructure.com/
+// @namespace    https://github.com/blakeburdpy/tampermonkey-scripts
 // @version      3.5
 // @description  Rubric scoring, verified saves, navigation, diagnostics
-// @match        https://cedarburg.instructure.com/courses/*/gradebook/speed_grader*
+// @match        https://*.instructure.com/courses/*/gradebook/speed_grader*
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==
 
+// DOMAIN COMPATIBILITY:
+// This script is configured for Canvas installations hosted on
+// *.instructure.com. If your institution uses a custom Canvas domain,
+// update the @match directive above to match your institution's URL.
+// Example: https://canvas.example.edu/courses/*/gradebook/speed_grader*
+
 /*
+
  * CANVAS RUBRIC HELPER — VERSION HISTORY
  * Newest first
  *
