@@ -2,8 +2,11 @@
 // ==UserScript==
 // @name         Canvas Universal Rubric Max Scorer
 // @namespace    https://github.com/blakeburdpy/tampermonkey-scripts
-// @version      3.5
-// @description  Rubric scoring, verified saves, navigation, diagnostics
+// @version      3.6
+// @description  Canvas LMS SpeedGrader rubric grading helper: select maximum ratings, verify saves, navigate students, and troubleshoot with diagnostics.
+// @author       blakeburdpy
+// @source       https://github.com/blakeburdpy/tampermonkey-scripts
+// @supportURL   https://github.com/blakeburdpy/tampermonkey-scripts/issues
 // @match        https://*.instructure.com/courses/*/gradebook/speed_grader*
 // @grant        none
 // @run-at       document-idle
