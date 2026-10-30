@@ -7,6 +7,8 @@
 // @author       blakeburdpy
 // @source       https://github.com/blakeburdpy/tampermonkey-scripts
 // @supportURL   https://github.com/blakeburdpy/tampermonkey-scripts/issues
+// @updateURL    https://gist.githubusercontent.com/blakeburdpy/713de93e56f91605082c0725da2e0572/raw/canvas-universal-rubric-max-scorer.user.js
+// @downloadURL  https://gist.githubusercontent.com/blakeburdpy/713de93e56f91605082c0725da2e0572/raw/canvas-universal-rubric-max-scorer.user.js
 // @match        https://*.instructure.com/courses/*/gradebook/speed_grader*
 // @grant        none
 // @run-at       document-idle
